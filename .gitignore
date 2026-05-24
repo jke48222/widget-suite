@@ -1,0 +1,7 @@
+*.key
+*.p8
+*-token.txt
+musickit.json
+profile.txt
+*-cache.json
+.DS_Store
