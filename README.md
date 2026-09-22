@@ -1,10 +1,16 @@
 # Übersicht Widget Suite
 
+[![License](https://img.shields.io/github/license/jke48222/widget-suite)](LICENSE) ![Platform: macOS](https://img.shields.io/badge/platform-macOS-lightgrey) [![Übersicht gallery](https://img.shields.io/badge/%C3%9Cbersicht-gallery-informational)](https://tracesof.net/uebersicht-widgets/)
+
+[Übersicht gallery](https://tracesof.net/uebersicht-widgets/) · [Widgets](#widgets) · [Install](#install)
+
 A set of 12 widgets for [Übersicht](http://tracesof.net/uebersicht/) — now-playing
 and music visuals, productivity tools, and ambient desktop pieces, all sharing one
 design system. Each widget lives in its own repository (linked below).
 
-[![Homescreen — click to play](homescreen-poster.png)](homescreen.mp4)
+![The suite running on a macOS desktop](homescreen.gif)
+
+[Full-resolution video](homescreen.mp4)
 
 ## Widgets
 
@@ -15,14 +21,28 @@ design system. Each widget lives in its own repository (linked below).
 | <a href="https://github.com/jke48222/now-playing-widget"><img src="thumbs/now-playing.png" width="260"><br><b>Now Playing</b></a><br><sub>The current track as a tilted, continuously spinning vinyl record.</sub> | <a href="https://github.com/jke48222/recent-album-covers-widget"><img src="thumbs/recent-album-covers.png" width="260"><br><b>Recent Album Covers</b></a><br><sub>A 3x3 mosaic of the nine most-played albums in your Music library.</sub> | <a href="https://github.com/jke48222/recent-downloads-widget"><img src="thumbs/recent-downloads.png" width="260"><br><b>Recent Downloads</b></a><br><sub>The three most recent files in your Downloads folder with real macOS previews.</sub> |
 | <a href="https://github.com/jke48222/rotating-3d-model-widget"><img src="thumbs/rotating-3d-model.png" width="260"><br><b>Rotating 3D Model</b></a><br><sub>A live, auto-rotating 3D PBR model that changes daily, with offline fallback.</sub> | <a href="https://github.com/jke48222/spinning-globe-widget"><img src="thumbs/spinning-globe.png" width="260"><br><b>Spinning Globe</b></a><br><sub>A slowly spinning dot-matrix globe with arcs and a pin on every city you've visited.</sub> | <a href="https://github.com/jke48222/wallpaper-switcher-widget"><img src="thumbs/wallpaper-switcher.png" width="260"><br><b>Wallpaper Switcher</b></a><br><sub>Browse and set your desktop wallpaper from ~/Pictures/Wallpapers.</sub> |
 
-
 ## Install
 
-Each widget is its own repo. Open one, download its `*.widget.zip`, unzip into
-`~/Library/Application Support/Übersicht/widgets/`, then refresh Übersicht
-(menu bar icon -> Refresh All). Some widgets can optionally connect to the
-Claude or Apple Music APIs — see each repo's README.
+Install Übersicht if you don't have it:
+
+```sh
+brew install --cask ubersicht
+```
+
+Each widget is its own repo with a one-click installer. Clone the ones you want and run `./install.sh` in each; it copies the widget into Übersicht's widgets folder, installs any helper scripts, and runs setup where a widget needs it:
+
+```sh
+git clone https://github.com/jke48222/now-playing-widget.git
+cd now-playing-widget && ./install.sh
+```
+
+Or download the `*.widget.zip` from a widget's latest release, unzip it into `~/Library/Application Support/Übersicht/widgets/`, and refresh Übersicht (menu bar icon → Refresh All). All 12 are also listed in the [Übersicht widget gallery](https://tracesof.net/uebersicht-widgets/). Some widgets can optionally connect to the Claude or Apple Music APIs; see each repo's README.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
 
 ## Author
+
 
 Jalen Edusei <jalen.edusei@gmail.com>
