@@ -4,13 +4,15 @@
 
 [Übersicht gallery](https://tracesof.net/uebersicht-widgets/) · [Widgets](#widgets) · [Install](#install)
 
-A set of 16 widgets for [Übersicht](http://tracesof.net/uebersicht/) — now-playing
-and music visuals, productivity tools, and ambient desktop pieces, all sharing one
-design system. Each widget lives in its own repository (linked below). The four newest, Agent Fleet, Keys & Pads, Pi Fleet, and Window Pet, are interactive or read live data; the rest are ambient.
+A set of 16 widgets for [Übersicht](http://tracesof.net/uebersicht/), each built
+as a physical object rather than a card: a hardware sampler, a split-flap
+departures board, a rack panel, a direct-drive turntable, a thermal receipt, a
+manila folder, a typed card, a taped print, a velvet reading table, a walnut
+record shelf, a museum vitrine, a brass desk globe, a lightbox, an LED matrix
+panel, a live wallpaper, and a small robot that lives behind your windows.
+Each widget lives in its own repository (linked below).
 
-![The suite running on a macOS desktop](homescreen.gif)
-
-[Full-resolution video](homescreen.mp4)
+![The sixteen widgets composed on one desktop](homescreen.png)
 
 ## Widgets
 
