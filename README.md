@@ -4,9 +4,9 @@
 
 [Übersicht gallery](https://tracesof.net/uebersicht-widgets/) · [Widgets](#widgets) · [Install](#install)
 
-A set of 12 widgets for [Übersicht](http://tracesof.net/uebersicht/) — now-playing
+A set of 16 widgets for [Übersicht](http://tracesof.net/uebersicht/) — now-playing
 and music visuals, productivity tools, and ambient desktop pieces, all sharing one
-design system. Each widget lives in its own repository (linked below).
+design system. Each widget lives in its own repository (linked below). The four newest, Agent Fleet, Keys & Pads, Pi Fleet, and Window Pet, are interactive or read live data; the rest are ambient.
 
 ![The suite running on a macOS desktop](homescreen.gif)
 
@@ -20,6 +20,8 @@ design system. Each widget lives in its own repository (linked below).
 | <a href="https://github.com/jke48222/daily-astronomy-photo-widget"><img src="thumbs/daily-astronomy-photo.png" width="260"><br><b>Daily Astronomy Photo</b></a><br><sub>NASA's Astronomy Picture of the Day, full-bleed, with inline video on .mp4 days.</sub> | <a href="https://github.com/jke48222/daily-tarot-widget"><img src="thumbs/daily-tarot.png" width="260"><br><b>Daily Tarot</b></a><br><sub>A daily Rider-Waite-Smith tarot card with its upright/reversed reading.</sub> | <a href="https://github.com/jke48222/github-contributions-widget"><img src="thumbs/github-contributions.png" width="260"><br><b>GitHub Contributions</b></a><br><sub>A GitHub contribution graph with current streak, yearly total, and per-day tooltips.</sub> |
 | <a href="https://github.com/jke48222/now-playing-widget"><img src="thumbs/now-playing.png" width="260"><br><b>Now Playing</b></a><br><sub>The current track as a tilted, continuously spinning vinyl record.</sub> | <a href="https://github.com/jke48222/recent-album-covers-widget"><img src="thumbs/recent-album-covers.png" width="260"><br><b>Recent Album Covers</b></a><br><sub>A 3x3 mosaic of the nine most-played albums in your Music library.</sub> | <a href="https://github.com/jke48222/recent-downloads-widget"><img src="thumbs/recent-downloads.png" width="260"><br><b>Recent Downloads</b></a><br><sub>The three most recent files in your Downloads folder with real macOS previews.</sub> |
 | <a href="https://github.com/jke48222/rotating-3d-model-widget"><img src="thumbs/rotating-3d-model.png" width="260"><br><b>Rotating 3D Model</b></a><br><sub>A live, auto-rotating 3D PBR model that changes daily, with offline fallback.</sub> | <a href="https://github.com/jke48222/spinning-globe-widget"><img src="thumbs/spinning-globe.png" width="260"><br><b>Spinning Globe</b></a><br><sub>A slowly spinning dot-matrix globe with arcs and a pin on every city you've visited.</sub> | <a href="https://github.com/jke48222/wallpaper-switcher-widget"><img src="thumbs/wallpaper-switcher.png" width="260"><br><b>Wallpaper Switcher</b></a><br><sub>Browse and set your desktop wallpaper from ~/Pictures/Wallpapers.</sub> |
+| <a href="https://github.com/jke48222/agent-fleet-widget"><img src="thumbs/agent-fleet.png" width="260"><br><b>Agent Fleet</b></a><br><sub>Every coding-agent session on your Mac: what each is doing, which ones are waiting on you, and today's tokens.</sub> | <a href="https://github.com/jke48222/keys-and-pads-widget"><img src="thumbs/keys-and-pads.png" width="260"><br><b>Keys & Pads</b></a><br><sub>A playable 16-pad drum machine with a 16-step sequencer and a two-octave piano, synthesized entirely in the widget.</sub> | <a href="https://github.com/jke48222/pi-fleet-widget"><img src="thumbs/pi-fleet.png" width="260"><br><b>Pi Fleet</b></a><br><sub>Your Raspberry Pis at a glance: reachability, SoC temperature, load, memory, disk, uptime, and throttling.</sub> |
+| <a href="https://github.com/jke48222/window-pet-widget"><img src="thumbs/window-pet.png" width="260"><br><b>Window Pet</b></a><br><sub>A small robot that lives behind your windows: it stands on their edges, rides them, falls when they close, and sleeps when nothing happens.</sub> |  |  |
 
 ## Install
 
